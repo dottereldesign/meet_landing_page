@@ -1,4 +1,6 @@
 :root {
+  /* Custom Properties */
+
   /* Colours */
   --clr-primary-100: hsl(192, 37%, 48%);
   --clr-primary-200: hsl(268, 34%, 53%);
@@ -10,4 +12,47 @@
   --clr-neutral-300: hsl(0, 0%, 98%);
 
   /* Typography */
+  --ff-primary-100: "Red Hat Display", sans-serif;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --fw-black: 900;
+
+  --fs-500: 1rem;
+  --fs-600: 1.125rem;
+  --fs-700: 2.5rem;
+  --fs-800: 4rem;
+
+  --line-height-100: 1.625rem;
+  --line-height-200: 2.75rem;
+  --line-height-300: 4rem;
+
+  --letter-spacing-100: 4px;
+}
+
+/* Utility Classes */
+.ff-primary-100 {
+  font-family: var(--ff-primary-100);
+}
+
+.fw-medium {
+  font-weight: var(--fw-medium);
+}
+
+.fw-regular {
+  font-weight: var(--fw-regular);
+}
+
+.fw-bold {
+  font-weight: var(--fw-bold);
+}
+
+.fw-black {
+  font-weight: var(--fw-black);
+}
+
+/* Buttons */
+.button-1 {
+  font-family: var();
 }
