@@ -1,0 +1,13 @@
+:root {
+  /* Colours */
+  --clr-primary-100: hsl(192, 37%, 48%);
+  --clr-primary-200: hsl(268, 34%, 53%);
+  --clr-primary-300: hsl(192, 90%, 77%);
+  --clr-primary-400: hsl(268, 100%, 86%);
+
+  --clr-neutral-100: hsl(240, 21%, 20%);
+  --clr-neutral-200: hsl(240, 10%, 57%);
+  --clr-neutral-300: hsl(0, 0%, 98%);
+
+  /* Typography */
+}
