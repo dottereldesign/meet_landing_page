@@ -50,6 +50,12 @@
   }
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /* Utility Classes */
 .primary-heading {
   font-family: var(--ff-primary-100);
@@ -121,6 +127,30 @@
 
 .button-2:hover {
   opacity: 50%;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  margin-top: 3em;
+  flex-direction: column;
+}
+
+header img {
+  width: 119px;
+  height: auto;
+  margin-bottom: 3em;
+}
+
+.bg--img {
+  background-image: url("images/image-hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: -20px;
+  width: 100%;
+  height: 153px;
+  margin-bottom: 3em;
 }
 
 /* Main */
@@ -205,4 +235,9 @@ section h2 {
 
 section .body-text {
   margin: 1em 0 0 0;
+}
+
+footer img {
+  width: 100%;
+  height: auto;
 }
