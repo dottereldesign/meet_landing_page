@@ -168,5 +168,21 @@ main .seperator__circle {
 main .seperator__circle b {
   font-family: var(--ff-primary-100);
   color: var(--clr-neutral-100);
+  opacity: 50%;
   font-weight: var(--fw-black);
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1.5em;
+  padding: 0 1em 0 1em;
+  margin-top: 4em;
+}
+
+section.grid--images img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
