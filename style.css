@@ -276,6 +276,32 @@ section.grid--images img {
   border-radius: 10px;
 }
 
+@media (min-width: 768px) {
+  section.grid--images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1.5em;
+    padding: 0 1em 0 1em;
+    margin: 4em 0 2.5em 0;
+  }
+
+  section.grid--images img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  section.flex--meetings {
+    max-width: 80ch;
+    margin: 0 auto;
+  }
+
+  .flex--meetings p {
+    line-height: 1.5;
+  }
+}
+
 section.flex--meetings {
   display: flex;
   flex-direction: column;
@@ -357,6 +383,14 @@ footer h3 {
 
 .btn-1-footer span {
   color: var(--clr-primary-400);
+}
+
+@media (min-width: 768px) {
+  .footer_img img {
+    height: 308px;
+    width: 1440px;
+    overflow: hidden;
+  }
 }
 
 @media (min-width: 1110px) {
