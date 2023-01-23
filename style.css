@@ -283,7 +283,7 @@ section.grid--images img {
     gap: 1.5em;
     padding: 0 1em 0 1em;
     margin: 4em auto 2.5em auto;
-    max-width: 1110px;
+    max-width: 1440px;
   }
 
   section.grid--images img {
@@ -437,5 +437,11 @@ footer h3 {
     margin-top: 0;
     max-width: 350px;
     text-align: left;
+  }
+}
+
+@media (min-width: 1472px) {
+  section.grid--images {
+    padding: 0;
   }
 }
