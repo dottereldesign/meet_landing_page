@@ -197,12 +197,16 @@ header img {
   margin-bottom: 3em;
 }
 
+picture {
+  overflow: hidden;
+}
+
 .bg--img {
   background-image: url("images/image-hero.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position-x: -20px;
-  width: 100%;
+  background-position-x: center;
+  width: 414px;
   height: 153px;
   margin-bottom: 3em;
 }
